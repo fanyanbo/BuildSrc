@@ -1,4 +1,4 @@
-# Minicooper 4 BuildSrc
+# BuildSrc
 
 ## 1、概述
 为统一工程结构，依赖关系，所构建的项目基础结构
@@ -178,3 +178,5 @@ gradle.ext.sign_android_default ：不知名的签名
 
 
 ./gradlew.bat ccinit
+
+注意：每个模块下都需要配置cc_settings.gradle
